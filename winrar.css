@@ -1,0 +1,98 @@
+	.top-interfaz-main
+	{
+		background: rgb(244,244,244);
+		margin-left: 161px;
+		margin-top: 3px;
+		width: 284px;
+		height: 59px;
+		display: inline-block;
+	}
+	.top-interfaz-add
+	{
+		margin-left: 144px;
+		margin-top: 2px;
+		height: 20px;
+		width: 20px;
+	}
+	.top-interfaz-info
+	{	
+		vertical-align: bottom;
+		margin-bottom: 16px;
+		height: 20px;
+		width: 20px;
+	}
+	.top-text
+	{
+		letter-spacing: 0.25px;
+		display:inline-block;
+		margin-top: 45px; 
+		margin-left: 456.99px;
+		vertical-align: top;
+		font-family:Verdana;
+		font-size: 13px;
+		font-weight: 700;
+		color: rgb(15,64,160);
+		text-decoration:none;
+	}
+	.top-text:hover
+	{
+		text-decoration:underline;
+		color: rgb(55,104,200);
+	}
+	.top-text:active
+	{
+		color:rgb(0,0,100);
+	}
+	.top-search
+	{
+		background: black;
+		font-size: 16px;
+		color: blue;
+	}
+	
+	.top-search-google
+	{
+		padding-inline-start: 30px;
+		padding-inline-end: 30px;
+		width: 500px;
+		height: 50px;
+		font-size: 24px;
+		border: none;
+		border-radius: 25px;
+		box-shadow: 0px 0px 5px 5px rgb(230,230,230);
+		transition: box-shadow 0.4s;
+	}
+	.top-search-google:focus-within
+	{
+		outline: 0;
+		box-shadow: 0px 0px 5px 5px rgb(220,220,255);
+	}
+	.text-title
+	{
+		font-family:Verdana;
+		font-size: 20px;
+		font-weight: 700;
+		color: rgb(15,64,160);
+		text-decoration:none;
+	}
+	.text-body
+	{
+		font-family:Verdana;
+		font-size:10;
+		font-weight:500;
+		color: rgb(15,64,160);
+		text-decoration: none;
+	}
+	.text-body-link
+	{
+		display:inline-block;
+		font-family:Verdana;
+		font-size:10;
+		font-weight:500;
+		color: rgb(15,64,160);
+		text-decoration: none;
+	}
+	.text-body-link:hover
+	{
+		text-decoration: underline;
+	}
