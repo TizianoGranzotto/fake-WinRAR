@@ -1,0 +1,123 @@
+	
+	
+	/* Stylesheet by Tiziano Granzotto	*/
+	
+	/***********************************************************************/
+	.top-container-logo
+	{
+		height:60px;
+		
+		margin-left: 161px;
+		width: 284px;
+		height: 59px;
+		display:inline-block;
+	}
+	.top-container-text
+	{
+		display:inline-block;
+		margin-left:344px;
+	}
+	/***********************************************************************/
+	.top-text
+	{
+		font-family:Verdana;
+		font-size: 13px;
+		font-weight: 700;
+		letter-spacing: 0.25px;
+		color: rgb(15,64,160);
+		text-decoration:none;
+	}
+	.top-text:hover
+	{
+		text-decoration:underline;
+		color: rgb(55,104,200);
+	}
+	.top-text:active
+	{
+		color:rgb(0,0,100);
+	}
+	/***********************************************************************/
+	.button-add
+	{
+		vertical-align: bottom;
+		margin-bottom: 16px;
+		height: 20px;
+		width: 20px;
+	}
+	.button-info
+	{	
+		vertical-align: bottom;
+		margin-bottom: 16px;
+		height: 20px;
+		width: 20px;
+	}
+	/***********************************************************************/
+	.top-search
+	{
+		background: black;
+		font-size: 16px;
+		color: blue;
+	}
+	.top-search-google
+	{
+		display: block;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: 344px;
+		padding-inline-start: 30px;
+		padding-inline-end: 30px;
+		width: 500px;
+		height: 50px;
+		font-size: 24px;
+		border: none;
+		border-radius: 25px;
+		box-shadow: 0px 0px 5px 5px rgb(230,230,230);
+		transition: box-shadow 0.4s;
+	}
+	.top-search-google:focus-within
+	{
+		outline: 0;
+		box-shadow: 0px 0px 5px 5px rgb(220,220,255);
+	}
+	/***********************************************************************/
+	.text-title
+	{
+		font-family:Verdana;
+		font-size: 20px;
+		font-weight: 700;
+		color: rgb(15,64,160);
+		text-decoration:none;
+	}
+	.text-body
+	{
+		margin: 0;
+		font-family:Verdana;
+		font-size:10;
+		font-weight:500;
+		color: rgb(15,64,160);
+		text-decoration: none;
+	}
+	.text-body-link
+	{
+		display:inline-block;
+		font-family:Verdana;
+		font-size:10;
+		font-weight:500;
+		color: rgb(15,64,160);
+		text-decoration: none;
+	}
+	.text-body-link:hover
+	{
+		text-decoration: underline;
+	}
+	.div-text
+	{
+		display: inline-block;
+		font-family: Verdana;
+		font-size: 16px;
+	}
+	.div-link
+	{
+		height: 30px;
+	}
+	
